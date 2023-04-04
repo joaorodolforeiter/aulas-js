@@ -1,8 +1,5 @@
 function sum(numbers) {
-  let sum = 0;
-
-  numbers.forEach((number) => (sum += number));
-  return sum;
+  return numbers[0] + numbers[1] + numbers[2];
 }
 
-console.log(sum([3,6]));
+console.log(sum([3, 6, 9]));
